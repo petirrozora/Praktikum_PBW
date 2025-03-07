@@ -1,14 +1,13 @@
-<html >
+<html>
 <head>
    <title>Halaman Web Singaperbangsa</title>
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
- 
    <header>
-       <h1>Selamat Datang di Website Singaperbangsa</h1>
+       <h1>Selamat Datang di Website Sederhana</h1>
    </header>
- 
+   
    <nav>
        <ul>
            <li><a href="#">Beranda</a></li>
@@ -18,24 +17,54 @@
        </ul>
    </nav>
 
-
-    
    <div class="container">
        <section class="content">
-           <h2>Artikel Utama</h2>
-           <p>Ini adalah contoh halaman web sederhana menggunakan CSS dan Flexbox untuk tata letak.</p>
-           <button class="btn">Klik Saya</button>
+           <h2>Formulir Pendaftaran</h2>
+           <p>Silakan isi formulir di bawah ini untuk mendaftar.</p>
+           <form>
+               <label>Nama Lengkap:</label>
+               <input type="text" required>
+
+               <label>Email:</label>
+               <input type="email" required>
+
+               <label>Password:</label>
+               <input type="password" required>
+
+               <label>Jenis Kelamin:</label>
+               <input type="radio" name="gender"> Laki-laki
+               <input type="radio" name="gender"> Perempuan
+
+               <label>Hobi:</label>
+               <input type="checkbox"> Musik
+               <input type="checkbox"> Olahraga
+               <input type="checkbox"> Membaca
+
+               <label>Pilih Kota:</label>
+               <select>
+                   <option>Jakarta</option>
+                   <option>Bandung</option>
+                   <option>Surabaya</option>
+                   <option>Karawang</option>
+                   <option>Bogor</option>
+
+               </select>
+
+               <label>Pesan Tambahan:</label>
+               <textarea placeholder="Tulis pesan di sini..."></textarea>
+               
+               <button type="submit" class="btn">Kirim</button>
+           </form>
        </section>
+       
        <aside class="sidebar">
            <h2>Sidebar</h2>
            <p>Bagian sidebar dapat berisi tautan, iklan, atau informasi tambahan.</p>
        </aside>
    </div>
- 
+   
    <footer>
        <p>&copy; 2024 Halaman Web Singaperbangsa. Dibuat dengan CSS.</p>
    </footer>
-
-
 </body>
 </html>
