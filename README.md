@@ -1,2 +1,3 @@
 # Praktikum_PBW
-Tugas Mata Kuliah Pemrograman Berbasis Web
+Tugas Praktikum yang diberikan setiap pertemuan Mata Kuliah Pemrograman Berbasis Web
+
